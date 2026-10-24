@@ -6,19 +6,6 @@ This repository contains my independent summary of *Linux Basics for Hackers, 2n
 
 > This is an unofficial study resource. It is not affiliated with or endorsed by the book's author or publisher, and it does not replace the original book.
 
-## Project at a glance
-
-```mermaid
-flowchart LR
-    BOOK["245-page source book"] --> STUDY["In-depth study<br/>and topic selection"]
-    STUDY --> SUMMARY["21-page practical summary"]
-    SUMMARY --> LINUX["Linux foundations"]
-    SUMMARY --> SYSTEM["System administration"]
-    SUMMARY --> SECURITY["Security perspective"]
-    SUMMARY --> PYTHON["Python scripting basics"]
-    LINUX & SYSTEM & SECURITY & PYTHON --> REFERENCE["Fast beginner reference"]
-```
-
 ## Read the summary
 
 **[Open or download the 21-page PDF](<Summary of Linux Basics for Hackers 2nd Edition.pdf>)**
@@ -26,24 +13,6 @@ flowchart LR
 The PDF is formatted as an A4 visual reference for quick review.
 
 ## Topics covered
-
-```mermaid
-flowchart TD
-    START["Linux for cybersecurity"] --> BASICS["Getting started<br/>shell, filesystem, commands"]
-    START --> NETWORK["Network analysis<br/>interfaces, routes, tools"]
-    START --> ADMIN["System administration"]
-    START --> SECURITY["Security operations"]
-    START --> SCRIPTING["Python scripting"]
-
-    ADMIN --> SOFTWARE["Adding and removing software"]
-    ADMIN --> PERMISSIONS["Files, ownership, permissions"]
-    ADMIN --> PROCESSES["Process management"]
-    ADMIN --> SERVICES["Services and daemons"]
-
-    SECURITY --> LOGS["Linux logging"]
-    SECURITY --> KERNEL["Kernel and loadable modules"]
-    SECURITY --> PRIVACY["Security and anonymity concepts"]
-```
 
 - Getting started with Linux basics
 - Analyzing and managing networks
@@ -88,3 +57,7 @@ Created by **Ahmad Araja (ARAJAA)** as part of my cybersecurity and cloud-comput
 ## Educational notice
 
 Use security-related commands only in systems you own, CTF environments, training labs, or systems for which you have explicit authorization.
+
+## License
+
+My original summary, README, and accompanying notes are licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](LICENSE.md). This license does not apply to the original book, its trademarks, or third-party material that I do not own.
