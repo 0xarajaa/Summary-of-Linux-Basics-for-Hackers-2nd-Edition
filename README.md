@@ -1,48 +1,90 @@
-# A Summary of Linux Basics for Hackers, 2nd Edition
-### by Ahmad Araja
+# Linux Basics for Hackers, 2nd Edition - Practical Summary
 
-Hello everyone,
+**A 21-page cybersecurity-focused study reference created by Ahmad Araja (ARAJAA).**
 
-I have prepared a summary of the book *Linux Basics for Hackers (2nd Edition)*.
+This repository contains my independent summary of *Linux Basics for Hackers, 2nd Edition*. I condensed the original 245-page learning journey into a focused 21-page A4 reference covering the Linux concepts most useful to beginners entering cybersecurity and penetration testing.
 
-I designed this summary by condensing the original 245-page book into 21 pages, compiling the most important information based on my thorough and in-depth study of it. I focused on the key points covered in the book that any beginner needs to start in the world of Linux and cybersecurity, making this summary a practical and concise reference.
+> This is an unofficial study resource. It is not affiliated with or endorsed by the book's author or publisher, and it does not replace the original book.
 
----
+## Project at a glance
 
-# Topics Covered
+```mermaid
+flowchart LR
+    BOOK["245-page source book"] --> STUDY["In-depth study<br/>and topic selection"]
+    STUDY --> SUMMARY["21-page practical summary"]
+    SUMMARY --> LINUX["Linux foundations"]
+    SUMMARY --> SYSTEM["System administration"]
+    SUMMARY --> SECURITY["Security perspective"]
+    SUMMARY --> PYTHON["Python scripting basics"]
+    LINUX & SYSTEM & SECURITY & PYTHON --> REFERENCE["Fast beginner reference"]
+```
 
-- Getting Started with the Basics
-- Analyzing and Managing Networks
-- Adding and Removing Software
-- Controlling File and Directory Permissions
-- Process Management
-- Using and Abusing Services
-- The Logging System
-- Managing the Linux Kernel and Loadable Kernel Modules
-- Becoming Secure and Anonymous
-- Python Scripting Basics for Hackers
+## Read the summary
 
-These sections highlight the fundamental knowledge required to understand Linux from a cybersecurity and penetration testing perspective.
+**[Open or download the 21-page PDF](<Summary of Linux Basics for Hackers 2nd Edition.pdf>)**
 
----
+The PDF is formatted as an A4 visual reference for quick review.
 
-# About Me
+## Topics covered
 
-I am Ahmad Araja, a Cybersecurity & Cloud Computing undergraduate student. I share my academic and professional journey on LinkedIn, especially for those interested in cybersecurity, offensive security, and the penetration testing path.
+```mermaid
+flowchart TD
+    START["Linux for cybersecurity"] --> BASICS["Getting started<br/>shell, filesystem, commands"]
+    START --> NETWORK["Network analysis<br/>interfaces, routes, tools"]
+    START --> ADMIN["System administration"]
+    START --> SECURITY["Security operations"]
+    START --> SCRIPTING["Python scripting"]
 
-Feel free to follow me if you are interested in cybersecurity and offensive security learning.
+    ADMIN --> SOFTWARE["Adding and removing software"]
+    ADMIN --> PERMISSIONS["Files, ownership, permissions"]
+    ADMIN --> PROCESSES["Process management"]
+    ADMIN --> SERVICES["Services and daemons"]
 
-- LinkedIn: https://www.linkedin.com/in/ahmadaraja
+    SECURITY --> LOGS["Linux logging"]
+    SECURITY --> KERNEL["Kernel and loadable modules"]
+    SECURITY --> PRIVACY["Security and anonymity concepts"]
+```
 
----
+- Getting started with Linux basics
+- Analyzing and managing networks
+- Adding and removing software
+- Controlling file and directory permissions
+- Managing processes
+- Using and understanding services
+- Working with Linux logs
+- Understanding the kernel and loadable kernel modules
+- Security and anonymity concepts
+- Python scripting basics for hackers
 
-# Project Files
+## Who this is for
 
-- Linux Basics for Hackers Summary PDF
-- Thank You Note
+- Cybersecurity students starting with Linux
+- Beginner penetration testers
+- CTF learners who need a fast Linux refresher
+- Readers of the original book who want concise revision notes
 
----
+## Repository contents
 
-# Author
+```text
+.
+|-- Summary of Linux Basics for Hackers 2nd Edition.pdf
+|-- README.md
+`-- thank you.md
+```
 
-Ahmad Araja
+## Suggested use
+
+1. Study the corresponding topic in the original book.
+2. Use this PDF to review commands and core ideas.
+3. Reproduce concepts in a legal lab or local Linux virtual machine.
+4. Keep your own notes for commands and behavior observed during practice.
+
+## Author
+
+Created by **Ahmad Araja (ARAJAA)** as part of my cybersecurity and cloud-computing learning journey.
+
+[Connect with me on LinkedIn](https://www.linkedin.com/in/ahmadaraja)
+
+## Educational notice
+
+Use security-related commands only in systems you own, CTF environments, training labs, or systems for which you have explicit authorization.
